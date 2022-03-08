@@ -37,7 +37,7 @@ header div{
     align-items: center;
 }
 header{
-    background-image: url('../images/chapeau_mexicain.jpg');
+    background-image: url('../images/Maman_Flo_20170723.jpg');
     background-size: cover;
     background-position: center;
     margin-top: 58px;
@@ -80,8 +80,9 @@ h2{
 
 #section-2 img{
     
-    width: 50%;
+    width: 20%;
     height: auto;
+    object-fit: contain;
 }
 
 #section-2{
@@ -140,4 +141,4 @@ footer{
 footer a{
     display: inline;
     padding: 0px;
-}
+}                                                                                                              
