@@ -7,6 +7,7 @@ li{
 }
 
 a{
+    color: yellow;
     text-decoration: none;
     padding: 20px;
     display: block;
@@ -19,7 +20,7 @@ ul{
 }
 
 nav{
-    background-color: rgb(209, 241, 25);
+    background-color: black;
     position: fixed;
     width: 100%;
     top: 0;
@@ -27,17 +28,24 @@ nav{
 }
 
 h1{
-    color: yellow;
+    color: rgb(255, 255, 0);
     font-size: 80px;
+}
+
+h2{
+    color: rgb(255, 136, 0);
+    font-size: 40px;
+    margin: 40px
 }
 
 header div{
     height:65vh;
     display: flex;
+    justify-content: left;
     align-items: center;
 }
 header{
-    background-image: url('../images/Maman_Flo_20170723.jpg');
+    background-image: url('../images/fond_bureau.jpg');
     background-size: cover;
     background-position: center;
     margin-top: 58px;
@@ -70,7 +78,7 @@ main>section{
     text-align: justify;
 }
 
-h2{
+#contact h2{
     text-align: center;
 }
 
@@ -117,6 +125,10 @@ h2{
     border:1px solid #dee2a6;    
 }
 
+#galerie div{
+    text-indent: 1%;
+}
+
 #contact-div{
     display: flex;
 }
@@ -127,18 +139,34 @@ h2{
     border: 0px;
 }
 
+#contact-div address{
+    color: rgb(0, 0, 100);
+}
+
+#contact-div a{
+    color: rgb(0, 0, 250);
+}
+.emel{
+    text-decoration: underline;
+}
+
 address{
     text-align: center;
     width: 50%;
     align-self: center;
 }
 footer{
-    background-color: #959595;
+    background-color: #868686;
     padding: 50px 0;
     text-align: center;
 }
 
+footer p{
+    color : darkred
+}
 footer a{
     display: inline;
+    font-size: large;
     padding: 0px;
+    color: blue;
 }                                                                                                              
