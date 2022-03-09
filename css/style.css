@@ -83,6 +83,10 @@ main>section{
     text-align: justify;
 }
 
+#presentation span{
+    color: red;
+}
+
 #contact h2{
     text-align: center;
 }
@@ -167,17 +171,14 @@ footer{
 }
 
 footer p{
-    color : darkred
+    color : orange
 }
+
 footer a{
     display: inline;
     font-size: large;
     padding: 0px;
     color: blue;
-}
-
-span{
-    color: red;
 }
 
 @media(max-width: 1200px){
