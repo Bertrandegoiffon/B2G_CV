@@ -7,7 +7,7 @@ li{
 }
 
 a{
-    color: yellow;
+    color: orange;
     text-decoration: none;
     padding: 20px;
     display: block;
@@ -28,14 +28,19 @@ nav{
 }
 
 h1{
-    color: rgb(255, 255, 0);
+    color: rgba(255, 157, 0);
     font-size: 80px;
 }
 
 h2{
-    color: rgb(255, 136, 0);
+    color: rgb(255, 128, 0);
     font-size: 40px;
     margin: 40px
+}
+
+h3{
+    color: darkblue;
+    font-size: 20px;
 }
 
 header div{
@@ -58,13 +63,13 @@ main{
 main>section{
     padding: 50px 200px;
 }
-#section-1{
+#presentation{
     padding-top: 0;
     display: flex;
     justify-content: space-between;
 }
 
-#section-1 section{
+#presentation section{
     border: 1px solid rgba(0,0,0,.125);
     width: 30%;
     padding: 25px;
@@ -74,7 +79,7 @@ main>section{
     text-align: center;
 }
 
-#section-1 p{
+#presentation p{
     text-align: justify;
 }
 
@@ -86,18 +91,18 @@ main>section{
     background-color: #e3e3e3;
 }
 
-#section-2 img{
+#qualite img{
     
     width: 20%;
     height: auto;
     object-fit: contain;
 }
 
-#section-2{
+#qualite{
     display: flex;
 }
 
-#section-2 div{
+#qualite div{
     border: 1px solid rgba(0,0,0,.125);
     padding: 15px;
     align-self: center;
@@ -105,7 +110,7 @@ main>section{
     box-shadow: 0 10px 10px rgba(0,0,0,.125);
     background-color: #ffffff;
 }
-
+/*
 .gallery{
     display: flex;
     flex-wrap: wrap
@@ -121,11 +126,11 @@ main>section{
     width:100%;
     height: auto;
     padding: 5px;
-    box-sizing: border-box; /* de bordure à bordure 25% incluant le padding de 5px */
+    box-sizing: border-box; /* de bordure à bordure 25% incluant le padding de 5px
     border:1px solid #dee2a6;    
-}
+}*/
 
-#galerie div{
+#experiences div{
     text-indent: 1%;
 }
 
@@ -169,4 +174,72 @@ footer a{
     font-size: large;
     padding: 0px;
     color: blue;
-}                                                                                                              
+}
+
+span{
+    color: red;
+}
+
+@media(max-width: 1200px){
+    main > section{
+        padding: 50px 125px
+    }
+
+    .qualite img{
+        width: 33.333333%
+    }
+
+    #qualite div{
+        border: 1px solid rgba(0,0,0,.125);
+        padding: 15px;
+        align-self: center;
+        margin-left: -50px;
+    }
+    
+}
+
+@media(max-width: 992px){
+    main > section{
+        padding:50px 90px;
+    }
+
+    .qualite img{
+        width: 25%
+
+    }
+    
+    #qualite div{
+        padding: 10px;
+        align-self: center;
+        margin-left: -25px;
+    }
+}
+
+@media(max-width: 768px){
+    main > section{
+        padding:50px 30px;
+    }
+
+    .qualite img{
+        width: 10%
+    }
+
+    #qualite div{
+        padding: 5px;
+        align-self: center;
+        margin-left: -10px;
+    }
+
+    ul{
+        padding: 0;
+    }
+}
+
+h1{
+    font-family: 'bertrand';
+}
+
+@font-face{
+ src: url('../fonts/Bright_DEMO.otf');
+ font-family: 'bertrand';
+}
