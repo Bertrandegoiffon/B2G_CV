@@ -7,9 +7,9 @@ li{
 }
 
 a{
-    color: orange;
+    color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 30px;
     display: block;
 }
 
@@ -20,7 +20,7 @@ ul{
 }
 
 nav{
-    background-color: black;
+    background-color: grey;
     position: fixed;
     width: 100%;
     top: 0;
