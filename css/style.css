@@ -31,6 +31,7 @@ nav{
 h1{
     color: rgba(255, 157, 0);
     font-size: 80px;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 h2{
@@ -237,11 +238,6 @@ footer a{
     }
 }
 
-h1{
-    font-family: 'bertrand';
-}
 
-@font-face{
- src: url('../fonts/Bright_DEMO.otf');
- font-family: 'bertrand';
-}
+
+
