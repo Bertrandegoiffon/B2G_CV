@@ -59,7 +59,18 @@ h4{
 }
 
 .hero-img{
-     
+    position: absolute;
+    display: block;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.hero-img img{
+position: relative;
+display: block;
+width: 100%;
 }
 
 header{
