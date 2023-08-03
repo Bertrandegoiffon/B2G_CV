@@ -28,26 +28,26 @@ nav{
     
 }
 
-h1{
+.hero-text h1, .hero-text h2, .hero-text h3 {
     color: #FFF0CA;
+}
+
+
+h1{
     font-size: 80px;
     font-family: 'Fira Sans', sans-serif;
 }
 
 h2{
-    color: #FFF0CB;
     font-size: 40px;
 }
 
 h3{
-    color: #FFF0CC;
     font-size: 30px;
 }
 
 h4{
-    color: darkblue;
     font-size: 20px;
-    margin: 40px
 }
 
 
