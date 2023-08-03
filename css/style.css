@@ -29,25 +29,25 @@ nav{
 }
 
 h1{
-    color: #FFF0CC;
+    color: #FFF0CA;
     font-size: 80px;
     font-family: 'Fira Sans', sans-serif;
 }
 
 h2{
-    color: #FFF0CC;
+    color: #FFF0CB;
     font-size: 40px;
-    margin: 40px
 }
 
 h3{
     color: #FFF0CC;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 h4{
-    color: black;
-    font-size: 10px;
+    color: darkblue;
+    font-size: 20px;
+    margin: 40px
 }
 
 
