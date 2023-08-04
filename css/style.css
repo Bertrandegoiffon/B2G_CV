@@ -187,12 +187,14 @@ main>section{
 }
 .emel{
     text-decoration: underline;
+    color: rgb(0, 0, 300);
 }
 
 address{
     text-align: center;
     width: 50%;
     align-self: center;
+    color: rgb(0, 0, 2O0);
 }
 footer{
     background-color: #868686;
