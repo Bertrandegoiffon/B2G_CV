@@ -197,11 +197,14 @@ address{
     color: rgb(0, 0, 2O0);
 }
 footer{
-    background-color: #868686;
+    background-color: black;
     padding: 50px 0;
     text-align: center;
     position: relative;
     margin-top: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 footer p{
@@ -209,10 +212,11 @@ footer p{
 }
 
 footer a{
-    display: inline;
     font-size: large;
-    padding: 0px;
-    color: black;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
 }
 
 @media(max-width: 1200px){
