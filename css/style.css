@@ -201,14 +201,14 @@ footer{
 }
 
 footer p{
-    color : orange
+    color : white;
 }
 
 footer a{
     display: inline;
     font-size: large;
     padding: 0px;
-    color: blue;
+    color: black;
 }
 
 @media(max-width: 1200px){
