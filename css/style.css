@@ -39,10 +39,11 @@ nav{
 
 .hero-text h1{
     font-family: voyage-regular;
-    color: #FFF0CA;
+    color: #FFF5D5;
+  font-size: 1000px;
 }
 .hero-text h2, .hero-text h3 {
-    color: #FFF0CA;
+    color: #FFF5D5;
 }
 
 
@@ -69,7 +70,9 @@ h4{
     height:65vh;
     justify-content: left;
     align-items: center;
-    margin-left: 30px;
+    padding-left: 30px;
+    backdrop-filter: blur(4px) brightness(0.7);
+    background-color: rgba(50, 50, 100, 0.3);
 }
 
 .hero-img{
@@ -79,7 +82,7 @@ h4{
     bottom: 0px;
     left: 0px;
     right: 0px;
-    filter: blur(0px);
+
 }
 
 .hero-img img{
