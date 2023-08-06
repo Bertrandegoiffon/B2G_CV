@@ -38,9 +38,9 @@ nav{
 }
 
 .hero-text h1{
-    font-family: voyage-regular;
+    font-family: voyage-bold;
     color: #FFF5D5;
-  font-size: 1000px;
+  font-size: 100px;
 }
 .hero-text h2, .hero-text h3 {
     color: #FFF5D5;
