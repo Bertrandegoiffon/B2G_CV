@@ -1,3 +1,12 @@
+@font-face {
+  font-family: voyage-bold;
+  src: url('..\fonts\voyage-bold.otf')  format('opentype');
+}
+@font-face {
+  font-family: voyage-regular;
+  src: url('..\fonts\voyage-regular.otf')  format('opentype');
+}
+
 body,ul{
     margin: 0px;
     font-family: 'Roboto', sans-serif;
@@ -28,7 +37,11 @@ nav{
     
 }
 
-.hero-text h1, .hero-text h2, .hero-text h3 {
+.hero-text h1{
+    font-family: voyage-regular;
+    color: #FFF0CA;
+}
+.hero-text h2, .hero-text h3 {
     color: #FFF0CA;
 }
 
