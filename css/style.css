@@ -39,12 +39,12 @@ nav{
 
 .hero-text h1{
     font-family: voyage-bold;
-    color: mediumslateblue;
+    color: white;
     font-size: 100px;
     margin: 0px;
 }
 .hero-text h2, .hero-text h3 {
-    color: #FFF5D5;
+   color: rosybrown;
 }
 
 
@@ -203,11 +203,11 @@ main>section{
 }
 
 #contact-div address{
-    color: rgb(0, 0, 100);
+   color: rosybrown;
 }
 
 #contact-div a{
-    color: #005;
+    color: rosybrown;
 }
 .emel{
     text-decoration: underline;
@@ -218,7 +218,10 @@ address{
     text-align: center;
     width: 50%;
     align-self: center;
-    color: rgb(0, 0, 2O0);
+    color: rosybrown;
+}
+address i {
+color: rosybrown;
 }
 footer{
     background-color: black;
