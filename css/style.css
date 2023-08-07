@@ -58,6 +58,7 @@ h2{
     font-size: 70px;
     margin: auto;
     margin-bottom: 60px;
+    color: rosybrown;
 }
 
 .hero-text h2{
@@ -138,7 +139,7 @@ main>section{
 }
 
 #presentation span{
-    color: red;
+    color: rosybrown;
 }
 
 #contact h2{
