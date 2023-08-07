@@ -239,6 +239,10 @@ footer a{
     display: block;
 }
 
+footer .fa-5x {
+    font-size: 3em;
+}
+
 @media(max-width: 1200px){
     main > section{
         padding: 50px 125px
