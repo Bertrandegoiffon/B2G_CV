@@ -39,12 +39,12 @@ nav{
 
 .hero-text h1{
     font-family: voyage-bold;
-    color: #FFF5D5;
+    color: mediumslateblue;
     font-size: 100px;
     margin: 0px;
 }
 .hero-text h2, .hero-text h3 {
-    color: #FFF;
+    color: #FFF5D5;
 }
 
 
