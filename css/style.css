@@ -221,6 +221,12 @@ footer{
     width: 100%;
 }
 
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40%;
+}
+
 footer p{
     color : white;
 }
