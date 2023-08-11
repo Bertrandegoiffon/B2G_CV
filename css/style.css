@@ -6,7 +6,6 @@
   font-family: voyage-regular;
   src: url('../fonts/voyage-regular.otf')  format('opentype');
 }
-
 body,ul{
     margin: 0px;
     font-family: 'Roboto', sans-serif;
