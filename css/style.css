@@ -2,6 +2,7 @@
   font-family: voyage-bold;
   src: url('../fonts/voyage-bold.otf')  format('opentype');
 }
+
 @font-face {
   font-family: voyage-regular;
   src: url('../fonts/voyage-regular.otf')  format('opentype');
