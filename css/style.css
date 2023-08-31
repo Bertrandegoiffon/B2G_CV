@@ -106,14 +106,28 @@ filter: brightness(0.7);
 }
 
 .experience p{
-  display:block;
+   -webkit-transition: max-height 0.8s ease-in;
+    -moz-transition: max-height 0.8s ease-in;
+    -o-transition: max-height 0.8s ease-in;
+    transition: max-height 0.8s ease-in;
+    opacity: 1;
+    max-height: 350px;
 }
 
 .experience p.hidden{
-  display:none;
+  -webkit-transition: max-height 0.2s ease-in;
+    -moz-transition: max-height 0.2s ease-in;
+    -o-transition: max-height 0.2s ease-in;
+    transition: max-height 0.2s ease-in;
+    opacity: 0;
+		max-height: 0px;
 }
 
 .experience.ouvert .fa-chevron-down{
+  -webkit-transition: rotate 0.2s ease-in;
+    -moz-transition: rotate 0.2s ease-in;
+    -o-transition: rotate 0.2s ease-in;
+    transition: rotate 0.2s ease-in;
   rotate:-180deg;
 }
 
