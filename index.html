@@ -187,9 +187,10 @@
     <script>
 
 $( document ).ready(function() {
-    $("h1").click(function(){
-        alert("hey");
-    });
+      $(".experience").click(function(){
+          $(this).toggleClass("ouvert");
+          $(this).children("p").toggleClass("hidden");
+      });
 });
 </script>
 </html>
