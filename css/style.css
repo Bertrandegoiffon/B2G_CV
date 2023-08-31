@@ -105,6 +105,18 @@ filter: blur(2px);
 filter: brightness(0.7);
 }
 
+.experience p{
+  display:block;
+}
+
+.experience p.hidden{
+  display:none;
+}
+
+.experience.ouvert .fa-chevron-down{
+  rotate:-180deg;
+}
+
 header{
     position: relative;
     margin-top: 50px;
