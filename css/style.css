@@ -114,6 +114,9 @@ overflow: hidden;
     max-height: 350px;
 }
 
+ .experience{  
+   cursor: pointer;
+ }
 .experience p.hidden{
   -webkit-transition: max-height 0.2s ease-in;
     -moz-transition: max-height 0.2s ease-in;
