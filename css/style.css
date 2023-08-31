@@ -110,7 +110,7 @@ filter: brightness(0.7);
     -moz-transition: max-height 0.8s ease-in;
     -o-transition: max-height 0.8s ease-in;
     transition: max-height 0.8s ease-in;
-    opacity: 1;
+overflow: hidden;
     max-height: 350px;
 }
 
@@ -119,8 +119,7 @@ filter: brightness(0.7);
     -moz-transition: max-height 0.2s ease-in;
     -o-transition: max-height 0.2s ease-in;
     transition: max-height 0.2s ease-in;
-    opacity: 0;
-		max-height: 0px;
+max-height: 0px;
 }
 
 .experience.ouvert .fa-chevron-down{
@@ -129,6 +128,14 @@ filter: brightness(0.7);
     -o-transition: rotate 0.2s ease-in;
     transition: rotate 0.2s ease-in;
   rotate:-180deg;
+}
+
+.experience .fa-chevron-down{
+  -webkit-transition: rotate 0.2s ease-in;
+    -moz-transition: rotate 0.2s ease-in;
+    -o-transition: rotate 0.2s ease-in;
+    transition: rotate 0.2s ease-in;
+  rotate:0deg;
 }
 
 header{
