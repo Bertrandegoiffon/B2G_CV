@@ -73,7 +73,7 @@
             <h2>Mes expériences</h2>
                 <div class="experience">
                 <h3>2018 - 2020 : Responsable Applicatif – Université Dauphine <i class="fa-solid fa-chevron-down"></i></h3>
-                    <p>
+                    <p class="hidden">
                     • Gestion de projets pour piloter une équipe technico - fonctionnelle (JIRA team)<br>
                     • Gestion scolaire des 11500 étudiants avec l’application numérique dédiée<br>
                     • Dématérialisation et réorganisation des processus existant pour les simplifier<br>
@@ -84,26 +84,26 @@
                 </div>
                 <div class="experience">
                 <h3>2016 - 2017 : Responsable Informatique – Vision du Monde <i class="fa-solid fa-chevron-down"></i></h3>
-                    <p>
+                    <p class="hidden">
                     • Gestion du parc informatique de 45 collaborateurs en lien avec l’Allemagne<br>
                     • Gestion du parc applicatif, formation des utilisateurs, création de la charte.<br>
                     </p>
                 </div>
                 <div class="experience">   
                 <h3>2015 - 2016 : Enseignant en technologies – St-Joseph <i class="fa-solid fa-chevron-down"></i></h3>
-                    <p>
+                    <p class="hidden">
                     • Conception et enseignement des cours avec pédagogie et des exercices pratiques en technologie et informatique.<br>
                     </p>
                 </div>
                 <div class="experience">
                 <h3>2012 - 2014 : Consult. en gestion de patrimoine – PRIMONIAL <i class="fa-solid fa-chevron-down"></i></h3>
-                    <p>
+                    <p class="hidden">
                     • Animation du portefeuille clients et de projet (PMO). Analyse des besoins.<br>
                     </p>
                 </div>
                 <div class="experience">
                 <h3>2008 - 2011 : Chef d’équipe à la DSI du groupe – MICHELIN <i class="fa-solid fa-chevron-down"></i></h3>
-                    <p>
+                   <p class="hidden">
                     • Planification de l’affectation des ressources (capacity planning) et alerte en cas d’écart. Contribuer à la réduction des coûts en maximisant l’affectation des personnes aux projets (ARVE) : business analyst – pilotage budgétaire<br>
                     • Maîtrise des contraintes (arrivée ou départ, plan de ‘reskilling’...) de l’entité et mise en place des solutions alternatives<br>
                     • Veille à l’atteinte des cibles de ratio interne/externe et de répartition par métier. Expert en « développement des compétences / formation » au sein de l’entité Supply chain & Logistique. Réseau des Ressource Managers<br>
@@ -113,7 +113,7 @@
                 </div>
                 <div class="experience">
                 <h3>2004 - 2008 : Responsable de projets Télécoms – APTUS <i class="fa-solid fa-chevron-down"></i></h3>
-                    <p>
+                   <p class="hidden">
                     • <span>ORANGE BUSINESS SERVICE</span> : 7 personnes – 1,2 M€
                     <div>Direction de projets de messagerie, hébergement, sécurité sous méthode Synergie PMI© : gestion des risques et priorités. Mise en place du référentiel des offres et prestations France Telecom</div>
                     <div>Participation aux groupes de travail MOA/MOE sur les évolutions du projet existant. Interface client/fournisseur pour aboutir à la signature du PV de recette</div>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="experience">
                 <h3>1999 - 2003 : AMOA SI – Cybergroup – ALTEN <i class="fa-solid fa-chevron-down"></i></h3>
-                    <p>
+                    <p class="hidden">
                     • DEXIA-CLF : Fiabilisation de la production des opérations de marché<br>
                     • 9TELECOM : Architecture et AO pour un datawarehouse de rémunération<br>
                     • BNP PARIBAS : Mise en œuvre d’une application de gestion de portefeuilles électroniques pour les grosses fortunes dans la cadre de la fusion-acquisition<br>
@@ -139,7 +139,7 @@
                 </div>
                 <div class="experience">
                 <h3>1997 - 1998 : Technical Account Manager – NAT SYSTEMS, COGNICASE GROUP <i class="fa-solid fa-chevron-down"></i></h3>
-                    <p>
+                    <p class="hidden">
                     • Clients germanophones (Münich) : Avant- et après-vente sur les offres de solutions<br>
                     • Audit technique et fonctionnel de pré-qualification sur natstar/tuxedo/sinix<br>
                     • Support technique et fonctionnel auprès de clients internationaux sur différents projets dans des environnements multi-plateformes et multi-bases (agf, gan, ccf, axa, bbl, ccb, etc.)<br>
@@ -151,7 +151,7 @@
                 </div>
                 <div class="experience">
                 <h3>1996 - 1997 : Ing d’études et développement – CAPGEMINI <i class="fa-solid fa-chevron-down"></i></h3>
-                    <p>
+                    <p class="hidden">
                     • Caisse d’Epargne : Test Bench client Natstar sur serveur multi-base et multi-plateforme : développement en langage C<br>
                     • Crédit Lyonnais : Analyse, conception, réalisation, recette sur la fiscalité des placements<br>
                     • Définition du schéma logique et physique de la base de données oracle<br>
@@ -188,7 +188,6 @@
 
 $( document ).ready(function() {
       $(".experience").click(function(){
-          alert("clique");
           $(this).toggleClass("ouvert");
           $(this).children("p").toggleClass("hidden");
       });
