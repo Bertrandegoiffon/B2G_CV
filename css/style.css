@@ -83,6 +83,7 @@ h4{
     padding-left: 30px;
     backdrop-filter: blur(4px) brightness(0.7);
     background-color: rgba(50, 50, 100, 0.3);
+    text-align: center;
 }
 
 .hero-img{
